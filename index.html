@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DésFighter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game-container">
+    
+    <div class="container">
+        <div class="player active" id="player1">
+            <h2>Player 1</h2>
+            <p>Score: <span id="score1">0</span></p>
+            <p>Total Score: <span id="totalScore1">0</span></p>
+        </div>
+        <div class="player" id="player2">
+            <h2>Player 2</h2>
+            <p>Score: <span id="score2">0</span></p>
+            <p>Total Score: <span id="totalScore2">0</span></p>
+        </div>
+    </div>
+    <div id="result">
+        <img id="result-image" src="images/dice-1.png" alt="Dé"> </div>
+        <div class="btn-container">
+            <button id="rollBtn">Roll Dice</button>
+            <button id="holdBtn">Hold</button>
+            <button id="NewGame">New Game</button>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
